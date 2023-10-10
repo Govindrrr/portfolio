@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar{
+    background-color: rgb(177, 140, 211);
+    justify-content:space-between;
+    height:100px;
+}
+.logo{
+    padding:20px;
+}
+.nav ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    
+    align-content: center;
+}
+.nav ul li{
+    margin: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+    color: rgb(64, 12, 99);
+    border-top: 2px solid rgb(64, 12, 99);
+    border-bottom: 2px solid rgb(64, 12, 99);
+}
+.nav input{
+    border: none;
+    border-radius: 20px;
+    background-color:white;
+    padding-left: 10px;
+    color: blue;
+}
+.nav form{
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+    height:25px;
+    border-radius:20px;
+
+}
+#btn{
+    background-color: white;
+    border: none;
+}
+.main{
+    
+    padding: 5%;
+    display: flex;
+}
+.main h2{
+    color: rgb(177, 140, 211);
+}
+.text{
+    margin-right: 20px;
+    padding: 5%;
+}
+.pad{
+    padding: 5%;
+    border: 5px solid rgb(177, 140, 211);
+  
+}
+.hire{
+    margin: 0px 0px 0px 100px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#hire-btn{
+    margin-bottom: 5px;
+    margin-left: 60px;
+    padding: 10px;
+    color: rgb(61, 158, 0);
+    border:none;
+    background-color: rgb(247, 244, 239);
+    border-radius:10px;
+}
+.ex{
+    padding: 20px;
+    margin:0px 20px 50px 20px;
+    border-top: 2px solid rgb(64, 12, 99);
+    border-bottom: 2px solid rgb(64, 12, 99);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mar{
+    margin: 2px;
+}

@@ -1,0 +1,20 @@
+.flex{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+p{
+    color:rgb(0, 0, 0)
+    
+}
+.text-margin{
+    margin: 20px;
+}
+.bb{
+    border-bottom: 2px solid;
+}
+.highlight{
+    font-weight: 500;
+    color: rgb(177, 140, 211);
+    text-decoration: underline;
+}
