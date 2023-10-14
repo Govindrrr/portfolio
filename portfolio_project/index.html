@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -18,32 +21,43 @@
 </head>
 
 <body>
-    <div class="navbar flex">
-        <div class="logo">
-            <img src="./images/logo.png" alt="" width="80px">
-        </div>
-        <div class="nav flex">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">service</a></li>
-                <li><a href="#">projects</a></li>
-            </ul>
-            <form action="" class="form">
-                <input type="search" name="search" placeholder="search">
-                <button id="btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <path
-                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
-                    </svg>
-                </button>
-            </form>
+    <div class="top">
+        <div class="navbar flex">
+            <div class="logo">
+                <img src="./images/logo.png" alt="" width="80px">
+            </div>
+            <div class="nav flex">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#service">service</a></li>
+                    <li><a href="#work">projects</a></li>
+                </ul>
+                <form action="" class="form">
+                    <input type="search" name="search" placeholder="search">
+                    <button id="btn"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
     <!-- navbar -->
 
-    <div class="main">
+    <div class="main end-border" id="home">
+        <div class="social">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp" style="color: #1dd733;"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube" style="color: #c71f38;"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter" style="color: #4a88f2;"></i></a></li>
+            </ul>
+        </div>
         <div class="pad flex">
             <div class="text">
 
@@ -86,22 +100,115 @@
                     <path
                         d="M256 80C141.1 80 48 173.1 48 288V392c0 13.3-10.7 24-24 24s-24-10.7-24-24V288C0 146.6 114.6 32 256 32s256 114.6 256 256V392c0 13.3-10.7 24-24 24s-24-10.7-24-24V288c0-114.9-93.1-208-208-208zM80 352c0-35.3 28.7-64 64-64h16c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H144c-35.3 0-64-28.7-64-64V352zm288-64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H352c-17.7 0-32-14.3-32-32V320c0-17.7 14.3-32 32-32h16z" />
                 </svg>
-                    <div class="mar">
-                        <h6>Support</h6>
-                        <p>online 24/7</p>
-                    </div>
-                <button id="hire-btn">Hire me</button>
+                <div class="mar">
+                    <h6>Support</h6>
+                    <p>online 24/7</p>
+                </div>
+            </div>
+            <div>
+                <button id="hire-btn"><i class="fa-solid fa-phone fa-shake" style="color: #3b2470;"></i> Hire
+                    me</button>
                 <img class="" src="./images/hire.png" alt="" width="100px">
             </div>
 
         </div>
-        </div>
-        <!-- main-->
+    </div>
+    <!-- main-->
 
-        <div class="footer">
+    <div class="about" id="about-me">
+        <div class="intro">
+            <p class="small">
+                My intro
+                <span class="me">
+                    <h2>ABOUT ME</h2>
+                </span>
+                Hi, I am Bale Roka, web designer and developer from Dang.
+                I have helps lots of cliends in getting their Online presenses.
+                As a web developer I can handle all the error over the website.
 
+                I was among the student who used to miss the class over a time. But still
+                try maintain qualification. Actually I used to bored in theory, even though
+                I study to achieved this.
+            </p>
         </div>
-        <!--footer-->
+        <img src="" alt="" class="imgg">
+    </div>
+
+    <div class="service" id="service">
+        <div class="title">
+            <h2 class="deco">Services</h2>
+        </div>
+        <div class="cols flex">
+            <div class="topics pad">
+                <img src="" alt="">
+                <h4>WEB DESIGN & DEVELOPMENT</h4>
+                <p>Beautiful website with actions.</p>
+            </div>
+            <div class="topics pad">
+                <img src="" alt="">
+                <h4>WEB DESIGN & DEVELOPMENT</h4>
+                <p>Beautiful website with actions.</p>
+            </div>
+            <div class="topics pad">
+                <img src="" alt="">
+                <h4>WEB DESIGN & DEVELOPMENT</h4>
+                <p>Beautiful website with actions.</p>
+            </div>
+        </div>
+        <div class="cols flex">
+            <div class="topics pad">
+                <img src="" alt="">
+                <h4>WEB DESIGN & DEVELOPMENT</h4>
+                <p>Beautiful website with actions.</p>
+            </div>
+            <div class="topics pad">
+                <img src="" alt="">
+                <h4>WEB DESIGN & DEVELOPMENT</h4>
+                <p>Beautiful website with actions.</p>
+            </div>
+            <div class="topics pad">
+                <img src="" alt="">
+                <h4>WEB DESIGN & DEVELOPMENT</h4>
+                <p>Beautiful website with actions.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="my-work" id="work">
+        <h2 class="deco2"> MY WORKS</h2>
+
+        <div class="cols flex pading">
+            <div class="works topics pad">
+                <img src="" alt="">
+                <p>collage</p>
+            </div>
+            <div class="works topics pad">
+                <img src="" alt="">
+                <p>collage</p>
+            </div>
+            <div class="works topics pad">
+                <img src="" alt="">
+                <p>collage</p>
+            </div>
+            <div class="works topics pad">
+                <img src="" alt="">
+                <p>collage</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="footer">
+        <div class="slogan">
+            <h1> Stay Wild!</h1>
+            <div class="text">
+                <input type="text" name="mail" id="feedback" placeholder="WRITE YOUR EMAIL">
+                <button id="user-text">></button>
+            </div>
+        </div>
+
+    </div>
+    <!--footer-->
 
 </body>
 

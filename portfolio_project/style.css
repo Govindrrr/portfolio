@@ -3,10 +3,17 @@
     margin: 0;
     font-family: 'Rubik', sans-serif;
 }
+.top{
+    position: relative;
+    margin-bottom: 100px;
+}
 .navbar{
     background-color: rgb(177, 140, 211);
     justify-content:space-between;
     height:100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 .logo{
     padding:20px;
@@ -35,7 +42,7 @@
     border-radius: 20px;
     background-color:white;
     padding-left: 10px;
-    color: blue;
+    
 }
 .nav form{
     background-color: white;
@@ -48,6 +55,19 @@
 #btn{
     background-color: white;
     border: none;
+}
+.social{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    background-color: rgb(247, 228, 248);
+}
+.social ul{
+    list-style: none;
+}
+.social ul li a{
+    font-size: 30px;
 }
 .main{
     
@@ -76,16 +96,16 @@
 }
 #hire-btn{
     margin-bottom: 5px;
-    margin-left: 60px;
+    margin-left: 40px;
     padding: 10px;
-    color: rgb(61, 158, 0);
+    color: rgb(89, 8, 111);
     border:none;
     background-color: rgb(247, 244, 239);
     border-radius:10px;
 }
 .ex{
     padding: 20px;
-    margin:0px 20px 50px 20px;
+    margin:0px 20px 60px 20px;
     border-top: 2px solid rgb(64, 12, 99);
     border-bottom: 2px solid rgb(64, 12, 99);
     display:flex;
@@ -93,5 +113,75 @@
     justify-content: center;
 }
 .mar{
-    margin: 2px;
+    margin: 3px;
+}
+.about{
+    padding: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.intro{
+    padding: 5%;
+    border: 5px solid rgb(177, 140, 211);
+    width: 40%;
+
+}
+.imgg{
+    width:40%;
+    height:300px;
+    border: 5px solid rgb(177, 140, 211);
+}
+.intro p{
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.title{
+    text-align: center;
+}
+.cols{
+    padding: 0% 5%;
+    justify-content: center;
+}
+.topics{
+    margin: 5px;
+    width: 15%;
+    
+}
+.my-work{
+    margin: 40px;
+}
+.pading{
+    padding: 5%;
+}
+.footer{
+    margin: 5%;
+    background-color:darkslategray;
+    padding: 5%;
+    color: white;
+}
+.slogan h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.text{
+    width: 40%;
+    border-bottom: 2px solid whitesmoke;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+}
+.text input{
+    border: none;
+    outline: none;
+    background-color: darkslategray;
+    width: 100%;
+    color:white;
+}
+#user-text{
+    border: none;
+    background: none
+    ;
 }
